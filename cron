@@ -1,0 +1,1 @@
+* * * * * /home/music/automation.sh /home/music/args.txt > /var/log/cron
