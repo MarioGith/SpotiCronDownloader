@@ -13,7 +13,7 @@ This script relies on Docker and the spotdl command. Ensure you have Docker inst
 1. Copy this repository:
 
 ```
-git clone https://github.com/MarioGith/spoticrondownloader.git
+git clone https://github.com/MarioGith/SpotiCronDownloader.git
 ```
 
 2. Build the Docker image:
@@ -42,7 +42,7 @@ docker run my-spotdl
 
 - The folders are created relative to the /home/music directory inside the Docker container.
 
-- The script doesn't support downloading of playlists, it works with individual track URLs.
+- The script does support downloading of playlists.
 
 - The script won't re-download tracks if they already exist in the target folder, as this is handled by the spotdl command itself.
 
