@@ -19,7 +19,7 @@ git clone https://github.com/MarioGith/SpotiCronDownloader.git
 2. Build the Docker image:
 
 ```
-docker nuild -t my-spotdl .
+docker build -t my-spotdl .
 ```
 
 3. Prepare a text file with lines in the folder~url format. The last empty line is really important for the script to work. For instance:
